@@ -3,10 +3,6 @@ import { AppService } from './app.service';
 
 @Controller()
 export class AppController {
-  // @Get()
-  // getHello() {
-  //   return 'helleeefsssdlo';
-  // }
   constructor(private readonly appService: AppService) {}
   @Get()
   getHello(): string {
