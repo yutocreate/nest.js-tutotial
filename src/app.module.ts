@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
-import { MongooseModule } from '@nestjs/mongoose';
 import { ItemsModule } from './items/items.module';
+import { TypeOrmModule } from '@nestjs/typeorm';
 
 @Module({
-  imports: [MongooseModule, ItemsModule],
+  imports: [ItemsModule, TypeOrmModule],
   controllers: [],
   providers: [],
 })

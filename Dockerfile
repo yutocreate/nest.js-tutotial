@@ -1,4 +1,4 @@
-FROM node:16.17 AS development
+FROM node:14 AS development
 
 #  Navigate to the container working directory 
 WORKDIR /usr/src/app
