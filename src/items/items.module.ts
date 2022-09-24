@@ -9,8 +9,4 @@ import { ItemRepository } from './item.repository';
   controllers: [ItemsController],
   providers: [ItemsService],
 })
-export class ItemsModule {
-  findAll() {
-    return 'This is ItemsService';
-  }
-}
+export class ItemsModule {}
